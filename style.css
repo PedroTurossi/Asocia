@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+/*importa a fonte*/
+
+body{
+    background: gainsboro;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner{
+    background: rgb(36, 36, 36);   
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.contt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cmg1{
+    background-color: rgb(30, 82, 63);
+    background: linear-gradient(0deg, rgba(220,220,220,1) 0%, rgba(30,90,60,1) 25%, rgba(30,90,60,1) 100%);
+    padding: 4% 4% 2% 4%;
+    height: 600px;
+    color: black;
+}
+.testea{
+    height: 600px;
+    width: 100%;
+    clip-path: polygon(100% 0, 100% 80%, 90% 100%, 18% 100%, 80% 0);
+    background-color: gainsboro;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    z-index: 1;
+}
+.textas{
+    position: relative;
+    font-size: 22px;
+    z-index: 2;
+}
+.regster{
+    float: right;
+    background-color: rgb(2, 201, 135);
+    right: auto;
+}
+.regster, .entr{
+    float: right;
+    border-radius: 10%;
+}
+
+
+.cmg2{
+    margin-top: 200px;
+    background: linear-gradient(0deg, rgba(220,220,220,1) 0%, rgba(147,147,147,1) 50%, rgba(220,220,220,1) 100%);;
+    color: black;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 350px;
+    width: 100%;
+}
+.testeb{
+    padding:  0;
+    height: 350px;
+    width: 50%;
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    background-color: rgb(30, 90, 60);
+    z-index: 1;
+    position: absolute;
+}
+.txtc2{
+    padding: 3%;
+    z-index: 2;
+    position: relative;
+}
+.txtc2 p{
+    font-size: 18px;
+}
+.txtc2 h3{
+    font-size: 30x;
+    font-weight: bold;
+}
+
+.cmg3{
+    background-color: rgb(30, 90, 60);
+    width: 100%;
+    height: 350px;
+    padding: 4%;
+    padding-top: 6%;
+    color:black;
+}
+.cnts{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    bottom: 0;
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+}
+.cntim{
+    text-align: center;
+}
+
+.imincn{
+    box-shadow: 0px 0px 5px 5px gray;
+    background: gray;
+    border-radius: 25%;
+    font-weight: bold;
+}
