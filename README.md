@@ -17,8 +17,8 @@ Essas páginas foram feitas com PHP, HTML, CSS, JS e SQL
 <hr>
 
 ### participação:
-- eu
-- gean carlos seibel
-- willian gabriel da silva
+- [eu](https://github.com/PedroTurossi)
+- [Gean Carlos Seibel](https://github.com/GeanCarlosSeibel)
+- [Willian Gabriel da Silva](https://github.com/evolouwill)
 
 atualmente nenhum deles possuem github para eu anexar o link deles aqui
